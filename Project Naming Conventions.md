@@ -8,6 +8,11 @@ There are only two hard things in Computer Science: cache invalidation and namin
 https://martinfowler.com/bliki/TwoHardThings.html
 
 
+- Reference:
+
+https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming
+
+
 Commentary
 ----------
 
@@ -23,6 +28,15 @@ Expect to get it wrong and have to rename them, there should be no ego attached 
 
 
 Consideration 1
+---------------
+
+In general the names should be:
+
+- All lower case
+- Hyphens between words  
+
+
+Consideration 2
 ---------------
 
 General hierarchy should start with a general identifier and get more specific.
@@ -57,7 +71,7 @@ client-project4-web
 ```
 
 
-Consideration 2
+Consideration 3
 ---------------
 
 Should the reference projects be named and organized by what they do versus how / with what language they do it?
@@ -72,6 +86,16 @@ Example:
 reference-cli-ssh-tunnel-bash
 reference-cli-ssh-tunnel-java
 reference-cli-ssh-tunnel-python
+```
+
+Example:
+
+```
+reference-cli-java-ssh-tunnel-tomcat
+reference-cli-java-ssh-tunnel-AEM
+reference-cli-java-ssh-tunnel-MySQL
+reference-cli-java-nexus-2
+reference-cli-java-nexus-3
 ```
 
 Example:
