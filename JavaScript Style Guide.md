@@ -1,26 +1,43 @@
-JavaScript-style-guide
+JavaScript Style Guide
 ======================
 
 - Best practices:
+
 http://learn.jquery.com/style-guide/
 http://contribute.jquery.org/style-guide/js/ 
 https://github.com/stevekwan/best-practices/blob/master/javascript/gotchas.md
     
+    
+TypeScript
+----------
+
+- Use static analysis to validate code
+- TSLint at checkin
+- Microsoft has implementation
+
+- Reference:
+
+https://slack.engineering/typescript-at-slack-a81307fa288d
+https://www.jetbrains.com/help/idea/2017.1/typescript-support.html
+
 
 Comments
 --------
 
 - Inline comments should have a leading space and be complete sentences.
 - Example:
+
 ```
 \\ Bind the click event to the function.
 ```
 
 - Use JSDoc comments: 
+
 http://usejsdoc.org/
 https://github.com/jsdoc3/jsdoc
 
 - Use @name, @constructor, @param, and @returns.
+
 http://usejsdoc.org/tags-name.html
 http://usejsdoc.org/tags-constructor.html
 http://usejsdoc.org/tags-param.html
@@ -28,6 +45,7 @@ http://usejsdoc.org/tags-returns.html
 
 - Include a description of the object, full sentence.
 - Example:
+
 ```
 /*-----------------------------------------------------------------------------*/
  * The ReferencePlugin object.
@@ -50,7 +68,8 @@ function ReferencePlugin( id, interval, exampleParameter ) {
 
 - Place any hacks or quick work arounds in shame.js
 
-- Always run jslint against code before committing.
+- Always run jslint against code before committing
+
 http://www.jslint.com/
     
     
