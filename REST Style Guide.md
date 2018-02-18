@@ -4,8 +4,11 @@ REST Style Guide
 - See also HTML REST.
 
 - Reference:
+
 http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#restful
+
 http://en.wikipedia.org/wiki/Representational_state_transfer
+
 https://bourgeois.me/rest/
 
 
@@ -34,12 +37,12 @@ GET
 
 - For an existing resource, get about the account profile:
 ```
-GET /accounts/<EXISTING ACCOUNT> HTTP/1.1
+GET /accounts/{EXISTING ACCOUNT} HTTP/1.1
 ```
 
 - For an existing resource, get offers for the account:
 ```
-GET /accounts/<EXISTING ACCOUNT>/offers HTTP/1.1
+GET /accounts/{EXISTING ACCOUNT}/offers HTTP/1.1
 ```
 
 
@@ -52,17 +55,17 @@ POST
 
 - Used to modify and update an existing resource:
 ```
-POST /accounts/<EXISTING ACCOUNT> HTTP/1.1
+POST /accounts/{EXISTING ACCOUNT} HTTP/1.1
 ```
 
 - NOTE: that the following is an error:
 ```
-POST /accounts/<NEW ACCOUNT> HTTP/1.1
+POST /accounts/{NEW ACCOUNT} HTTP/1.1
 ```
 
 - If the URL is not yet created, you should not be using POST to create it while specifying the name. 
-- This should result in a 'resource not found' error because <NEW ACCOUNT> does not exist yet. 
-- You should PUT the <NEW ACCOUNT> resource on the server first.
+- This should result in a 'resource not found' error because {NEW ACCOUNT} does not exist yet. 
+- You should PUT the {NEW ACCOUNT} resource on the server first.
 
 - You could though do something like this to create a resources using POST:
 ```
@@ -83,12 +86,12 @@ PUT
 
 - For a new resource:
 ```
-PUT /accounts/<NEW ACCOUNT> HTTP/1.1
+PUT /accounts/{NEW ACCOUNT} HTTP/1.1
 ```
 
 - To overwrite an existing resource:
 ```
-PUT /accounts/<EXISTING ACCOUNT> HTTP/1.1
+PUT /accounts/{EXISTING ACCOUNT} HTTP/1.1
 ```
 
 
@@ -101,7 +104,7 @@ DELETE
 
 - To delete an existing resource:
 ```
-DELETE /accounts/<EXISTING ACCOUNT> HTTP/1.1
+DELETE /accounts/{EXISTING ACCOUNT} HTTP/1.1
 ```
 
 
@@ -141,7 +144,7 @@ More Account Examples: Reset password
 
 - To reset a password:
 ```
-POST /accounts/<EXISTING ACCOUNT>/resetPassword
+POST /accounts/{EXISTING ACCOUNT}/resetPassword
 ```
 
 - Reference:
@@ -154,21 +157,27 @@ More Account Examples: Change password
 
 - To reset a password:
 ```
-POST /accounts/<EXISTING ACCOUNT>/changePassword
+POST /accounts/{EXISTING ACCOUNT}/changePassword
 ```
 
 
 Example APIs
 ------------
-- OAuth 2
+
+- OAuth 2:
+
 http://developer.github.com/v3/
+
 http://bostonpizza.api.onosys.com/Help
+
 https://developers.google.com/accounts/docs/OAuth2UserAgent
 
-- API Key
+- API Key:
+
 https://developers.gadventures.com/docs/rest.html
 
-- OAuth 1
+- OAuth 1:
+
 http://docs.appfigures.com/api/authentication
 
 
