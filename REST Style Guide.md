@@ -6,10 +6,11 @@ REST Style Guide
 - Reference:
 
 http://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api#restful
-
 http://en.wikipedia.org/wiki/Representational_state_transfer
-
 https://bourgeois.me/rest/
+
+- Dialog:
+https://www.reddit.com/r/programming/comments/8g6yan/this_kids_is_why_get_requests_should_be_idempotent/dy9npsx/
 
 
 Use Plural End Point Names
