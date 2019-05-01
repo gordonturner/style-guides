@@ -30,6 +30,12 @@ Anyone who is not a developer, how are they onboarded.
 - Partner onboarding
 
 
+Partners
+--------
+
+TODO
+
+
 Releases
 --------
 
@@ -44,8 +50,8 @@ What are the steps to prepare a release.
 - How are people notified of releases?
 
 
-Testing
--------
+Testing and QA
+--------------
 
 What testing does the project have.
 
@@ -53,6 +59,9 @@ What testing does the project have.
 - What integration testing is setup?  What platforms, desktop, mobile etc
 - Are any of the tests part of the release or CI/CD?
 - How are people notified of test failures?
+
+- What environment does QA use?
+- What environment does client use for QA?
 
 
 Deployment
@@ -86,6 +95,8 @@ What is being monitored and by who.
 
 - What are the SLAs?
 - Who are the points of contact and escalation path?
+
+- After deployment, is there any enhanced monitoring?
 
 - What servers are being monitored?  
 - What is being monitored?
