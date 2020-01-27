@@ -15,7 +15,7 @@ There are no right or wrong answers.
 
 However, there should be structure and consistency to the naming.  
 
-The test should be for someone with no knowledge of the project, they should be able to navigate the project names and understand the convention.
+The test should be for someone with no knowledge of the project, can they navigate the project names and understand the convention.
 
 It can be a challenge to name without direction for how many other projects there will be or of what type.
 
