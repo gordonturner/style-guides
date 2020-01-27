@@ -1,5 +1,4 @@
-Project Naming Conventions
-==========================
+# Project Naming Conventions
 
 There are only two hard things in Computer Science: cache invalidation and naming things.
 
@@ -7,28 +6,23 @@ There are only two hard things in Computer Science: cache invalidation and namin
 
 https://martinfowler.com/bliki/TwoHardThings.html
 
-
-- Reference:
-
 https://www.slideshare.net/pirhilton/how-to-name-things-the-hardest-problem-in-programming
 
 
-Commentary
-----------
+## Commentary
 
-There is no right or wrong answers.
+There are no right or wrong answers.
 
 However, there should be structure and consistency to the naming.  
 
-The test is someone with no knowledge of the project should be able to navigate the project names and understand the convention.
+The test should be for someone with no knowledge of the project, they should be able to navigate the project names and understand the convention.
 
 It can be a challenge to name without direction for how many other projects there will be or of what type.
 
 Expect to get it wrong and have to rename them, there should be no ego attached to names. 
 
 
-Consideration 1
----------------
+## Consideration 1
 
 In general the names should be:
 
@@ -36,10 +30,9 @@ In general the names should be:
 - Hyphens between words  
 
 
-Consideration 2
----------------
+## Consideration 2
 
-General hierarchy should start with a general identifier and get more specific.
+Hierarchy should start with a project name and go from general to specific.
 
 Example, same client and project with different functions:
 
@@ -48,8 +41,8 @@ client-project-web
 client-project-web-api
 client-project-reporting
 client-project-job
-client-project-iOS-app
-client-project-Android-app
+client-project-app-ios
+client-project-app-android
 ```
 
 Example, same client and project with multiple independent websites or campaign micro sites:
@@ -71,16 +64,11 @@ client-project4-web
 ```
 
 
-Consideration 3
----------------
+## Consideration 3
 
-Should the reference projects be named and organized by what they do versus how / with what language they do it?
+The projects could be named and organized by what they do versus how / with what language it is written in.
 
-Is it a series of reference projects contrasting approaches how / with what language?  
-
-Then name them with the same 'root' and suffix with a name identifying the how / with what language.
-
-Example:
+Example, a series of **reference** projects contrasting approaches how / with what language.  Named with the same root and have suffix with a name identifying the how / with what language.
 
 ```
 reference-cli-ssh-tunnel-bash
@@ -88,7 +76,7 @@ reference-cli-ssh-tunnel-java
 reference-cli-ssh-tunnel-python
 ```
 
-Example:
+More examples:
 
 ```
 reference-cli-java-ssh-tunnel-tomcat
@@ -98,7 +86,7 @@ reference-cli-java-nexus-2
 reference-cli-java-nexus-3
 ```
 
-Example:
+More examples:
 
 ```
 reference-spring-xml-config
@@ -106,7 +94,7 @@ reference-spring-java-config
 reference-spring-boot-config
 ```
 
-Example:
+More examples:
 
 ```
 reference-maven-release-test
