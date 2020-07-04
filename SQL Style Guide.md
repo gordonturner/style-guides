@@ -21,6 +21,13 @@ http://stackoverflow.com/questions/1369593/primary-key-foreign-key-naming-conven
 http://stackoverflow.com/questions/338156/table-naming-dilemma-singular-vs-plural-names
 
 
+Created, Updated Data
+---------------------
+
+- Recommendation to include `CREATED_DATE` on most tables
+- Recommendation to include `UPDATED_DATE` on tables that are changed
+
+
 Foreign Key Naming
 ------------------
 - Foreign key names should be uppercase.
