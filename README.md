@@ -1,4 +1,4 @@
-# style-guides
+# Style Guides
 
 This is a central location of style guides for programming languages, scripts and technologies.
 
