@@ -1,8 +1,8 @@
-style-guides
-------------
+# style-guides
 
-A central location to store style guides for programming languages and technologies.
+This is a central location of style guides for programming languages, scripts and technologies.
 
+Some style guides have been created by personal experience and others are borrowed / leveraged from more established organizations.
 
-	
-"Clear is better than clever."
+**"Clear is better than clever."**
+
